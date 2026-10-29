@@ -1,0 +1,22 @@
+# Secrets and configuration
+.env
+.env.*
+!.env.example
+*.key
+
+# Downloaded data and generated results
+guardian_ai_dataset.csv
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
